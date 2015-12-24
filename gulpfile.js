@@ -54,7 +54,7 @@ gulp.task('jshint', function() {
 });
 
 gulp.task('images', function() {
-    gulp.src('assets/img/**/*')
+    gulp.src('assets/img/**')
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
     .pipe(gulp.dest('dist/img'))
     .pipe(gulp.dest('_site/dist/img'))
