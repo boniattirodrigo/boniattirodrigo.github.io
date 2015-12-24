@@ -1,0 +1,99 @@
+//
+// Widgte: Footer
+// ----------------------------------------------------------------------------
+
+.footer {
+	position: relative;
+	padding-bottom: 4em;
+	background-color: #88a0ab;
+
+	.social-media {
+		margin: 0 auto 20px;
+		text-align: center;
+
+		a {
+			display: inline-block;
+			width: 42px;
+			height: 42px;
+			margin-left: 40px;
+			vertical-align: middle;
+			background-color: #4c6470;
+			background-image: url("../img/social-media.png");
+			background-repeat: no-repeat;
+			background-size: 337%;
+			border-radius: 3px;
+			transition: background-color .3s;
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+
+		&__github {
+			background-position: -25px 6px;
+
+			&:hover {
+				background-color: #333;
+			}
+		}
+
+		&__facebook {
+			background-position: 14px 5px;
+
+			&:hover {
+				background-color: #3d589e;
+			}
+		}
+
+		&__linkedin {
+			background-position: -61px 5px;
+
+			&:hover {
+				background-color: #1672b8;
+			}
+		}
+
+		&__twitter {
+			background-position: -106px 5px;
+
+			&:hover {
+				background-color: #27a9e2;
+			}
+		}
+
+	}
+
+	address {
+		display: block;
+
+		font-style: normal;
+		text-align: center;
+
+		a {
+			color: #000;
+			text-decoration: none;
+		}
+	}
+}
+
+@media (max-width: 760px) {
+	.footer {
+
+		.social-media {
+			padding-top: 1em;
+		}
+	}
+}
+
+@media (max-width: 520px) {
+	.footer {
+
+		.social-media {
+
+			a {
+				margin-left: 20px;
+			}
+
+		}
+	}
+}

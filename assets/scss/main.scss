@@ -1,0 +1,37 @@
+//
+// Boniatti
+// ----------------------------------------------------------------------------
+
+// Helper
+// ----------------------------------------------
+
+@import "helpers/normalize";
+@import "helpers/default";
+@import "helpers/helpers";
+
+// Elements
+// ----------------------------------------------
+
+@import "elements/typography";
+@import "elements/grid";
+
+// Widgtes
+// ----------------------------------------------
+
+@import "widgtes/header";
+@import "widgtes/navigation";
+@import "widgtes/popup";
+@import "widgtes/footer";
+
+// Views
+// ----------------------------------------------
+
+@import "views/home";
+
+//
+// Main
+// ----------------------------------------------
+
+.main {
+	background: url("../img/background.png");
+}

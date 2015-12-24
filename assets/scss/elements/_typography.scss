@@ -1,0 +1,64 @@
+//
+// Typography
+// ----------------------------------------------------------------------------
+
+body {
+	font: 1em/1.25em "Open Sans", sans-serif;
+	text-rendering: optimizeLegibility;
+}
+
+h2 {
+	margin: 0;
+	padding-bottom: .84em;
+	line-height: 1em;
+	font-family: "Source Sans Pro", "Open Sans", sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: lowercase;
+	color: #2d2929;
+}
+
+h3 {
+	text-align: left;
+	margin-top: 0;
+	font-family: "Source Sans Pro", "Open Sans", sans-serif;
+	font-size: 1.333333333em;
+	font-weight: 600;
+	color: #2d2929;
+}
+
+a {
+	text-decoration: none;
+	color: #4183c4;
+}
+
+p {
+	margin: 0;
+	font-size: 1.125em;
+	line-height: 1.625em;
+
+	b {
+		color: #424242;
+	}
+
+	+ p {
+		margin: 20px 0 0;
+	}
+}
+
+@media (max-width: 760px) {
+
+	p {
+		font-size: 1em;
+	}
+
+}
+
+@media (max-width: 520px) {
+
+	h2 {
+		font-size: 2.222222222em;
+	}
+
+}
