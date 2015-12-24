@@ -1,6 +1,5 @@
 /**
- * Define day and night plugin
- * Source help: http://stackoverflow.com/questions/2250036/how-to-determine-if-it-is-day-or-night-in-javascript-or-jquery
+ * Define day and night
  */
 
 var hr = (new Date()).getHours();
@@ -10,8 +9,7 @@ if (hr > 18 || hr < 6) {
 }
 
 /**
- * Radom image I coder
- * Source help: http://stackoverflow.com/questions/22363616/generate-random-number-between-2-variables-jquery
+ * Radom image
  */
 
 var minNumber = 1;

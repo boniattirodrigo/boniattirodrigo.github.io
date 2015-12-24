@@ -7,10 +7,6 @@
 	background-image: linear-gradient(#d3e28d, #f9f8cc);
 	background-repeat: no-repeat;
 
-	&--night {
-		background-position: 0 -440px, 0 0;
-	}
-
 	.header-banner {
 		position: relative;
 		overflow: hidden;
@@ -18,12 +14,13 @@
 		height: 440px;
 		max-width: 1240px;
 		margin: 0 auto;
-		background-image: url("../img/sprit.png");
-		background-repeat: no-repeat;
+		background: url("../img/window-day.png") no-repeat;
 	}
 
 	&--night {
-		background-position: 0 -440px, 0 0;
+		.header-banner {
+				background: url("../img/window-night.png") no-repeat;
+		}
 	}
 
 	.i-coder {
@@ -31,18 +28,18 @@
 		height: 430px;
 		width: 595px;
 		margin: 10px 0 0 180px;
-		background: url("../img/sprit.png");
+		background-repeat: no-repeat;
 
 		&--coffee-in-the-hand {
-			background-position: 0 -880px;
+			background-image: url("../img/i-coder-coffee-in-the-hand.png");
 		}
 
 		&--normal {
-			background-position: 593px -880px;
+			background-image: url("../img/i-coder-normal.png");
 		}
 
 		&--drink-coffee {
-			background-position: 1179px -880px;
+			background-image: url("../img/i-coder-drink-coffee.png");
 		}
 	}
 
@@ -112,7 +109,7 @@
 			float: none;
 			width: 150px;
 			height: 184px;
-			background-position: 0 -1340px;
+			background-image: url("../img/my-head.png");
 			margin: 20px auto 10px;
 		}
 
