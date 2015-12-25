@@ -187,10 +187,21 @@
 		}
 	}
 
+	.error {
+		background: #fda7a9;
+
+		&:focus {
+			background: #fda7a9;
+		}
+	}
+
+	label.error {
+		display: none !important;
+	}
+
 	textarea {
 		height: 150px;
-		max-height: 150px;
-		resize: vertical;
+		resize: none;
 	}
 
 	.btn-submit {
@@ -231,14 +242,6 @@
 				@extend .btn-submit--error;
 			}
 		}
-	}
-
-	.error {
-		background: #fda7a9;
-	}
-
-	label.error {
-		display: none !important;
 	}
 
 	.form-message {

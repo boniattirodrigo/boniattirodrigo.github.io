@@ -94,7 +94,6 @@ $(document).ready(function() {
      * Bind click handler to menu items
      * so we can get a fancy scroll animation
      */
-
     offsetTop = 0;
 
     menuItems.click(function(e) {
@@ -130,12 +129,29 @@ $(document).ready(function() {
         $('.i-arm').removeClass('i-arm-mensagem-focus');
     });
 
+    $('input, textarea').keyup(function(){
+        if ($('input, textarea').hasClass('error')) {
+            $('.i-mouth').addClass('i-open-mouth');
+        }
+        else {
+            $('.i-mouth').removeClass('i-open-mouth');
+        }
+    });
+
+    /**
+     * Validation form
+     */
     (function() {
         if($.fn.validate) {
             var $contactForm = $('.form');
-            // VALIDATE FORM
             $contactForm.validate();
             $contactForm.submit(function(e) {
+                if ($('input, textarea').hasClass('error')) {
+                    $('.i-mouth').addClass('i-open-mouth');
+                }
+                else {
+                    $('.i-mouth').removeClass('i-open-mouth');
+                }
                 if ($(this).valid()) {
                     nome = $('#nome').val();
                     $('.subject').val(nome + ' - Contato via site');
