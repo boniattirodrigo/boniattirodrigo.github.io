@@ -19,7 +19,7 @@
 
 	&--night {
 		.header-banner {
-				background: url("../img/window-night.png") no-repeat;
+			background: url("../img/window-night.png") no-repeat;
 		}
 	}
 
@@ -103,6 +103,12 @@
 		.header-banner {
 			height: 286px;
 			background-image: linear-gradient(#d3e28d, #f9f8cc);
+		}
+
+		&--night {
+			.header-banner {
+				background-image: linear-gradient(#d3e28d, #f9f8cc);
+			}
 		}
 
 		.i-coder {
