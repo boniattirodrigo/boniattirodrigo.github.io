@@ -80,23 +80,12 @@ $(document).ready(function() {
     });
 
     /**
-     * Navigation scroll
-     */
-    menuItems = $('.nav__options a');
-    menuItems.map(function() {
-        item = $(this).attr('href');
-        if (item.length) {
-            return item;
-        }
-    });
-
-    /**
      * Bind click handler to menu items
-     * so we can get a fancy scroll animation
+     * so can get a fancy scroll animation
      */
     offsetTop = 0;
 
-    menuItems.click(function(e) {
+    $('#nav-sobre, #nav-trabalhos, #nav-contato').click(function(e) {
         href = $(this).attr('href');
         navHeight = $('.nav').height();
         if ($('.nav--fixed')[0]) {
@@ -107,13 +96,13 @@ $(document).ready(function() {
         }
         $('html, body').stop().animate({
             scrollTop: offsetTop
-        },
-        400, function() {});
+        }, 400);
         e.preventDefault();
     });
 
-
-    // Move arm when focus in input
+    /**
+     * Move arm when focus in input
+     */
     $('#email').focus(function() {
         $('.i-arm').addClass('i-arm-email-focus');
         $('.i-arm').removeClass('i-arm-mensagem-focus');
