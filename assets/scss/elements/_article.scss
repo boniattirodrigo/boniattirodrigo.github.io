@@ -16,6 +16,19 @@
 		margin-bottom: 40px;
 		@extend .box-post;
 	}
+
+	&__details {
+		margin-top: 10px;
+		font-weight: 600;
+
+		&__date {
+			float: left;
+		}
+
+		&__tags {
+			float: right;
+		}
+	}
 }
 
 .aside {
@@ -39,6 +52,23 @@
 }
 
 @media (max-width: 760px) {
+	.article {
+
+		&__details {
+
+			&__date {
+				display: block;
+				float: none;
+			}
+
+			&__tags {
+				display: block;
+				float: none;
+				margin-top: 5px;
+			}
+		}
+	}
+
 	.aside {
 		position: relative;
 		float: none;
