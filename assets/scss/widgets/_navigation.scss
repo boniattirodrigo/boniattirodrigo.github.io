@@ -49,36 +49,33 @@
 
 @media (max-width: 800px) {
 
-	// Only body == home
-	.home {
-		.nav {
-			.menu-toggle {
-				display: inline-block;
-				background: url("../img/menu.svg") no-repeat 15px 16px;
-			}
+	.nav {
+		.menu-toggle {
+			display: inline-block;
+			background: url("../img/menu.svg") no-repeat 15px 16px;
+		}
 
-			&__options {
-				display: none;
+		&__options {
+			display: none;
 
-				&--active {
-					position: absolute;
-					top: 48px;
-					left: 0;
-					z-index: 5;
-					display: block;
-					width: 100%;
-					background: #2d2929;
-					border-top: 2px solid #fff;
+			&--active {
+				position: absolute;
+				top: 48px;
+				left: 0;
+				z-index: 5;
+				display: block;
+				width: 100%;
+				background: #2d2929;
+				border-top: 2px solid #fff;
 
-					a {
-						width: 50%;
-						text-align: center;
-						border: 1px solid #fff;
-					}
-
+				a {
+					width: 50%;
+					text-align: center;
+					border: 1px solid #fff;
 				}
 
 			}
+
 		}
 	}
 }
