@@ -3,10 +3,14 @@
 // ----------------------------------------------------------------------------
 
 .blog {
+	.mountain {
+		position: absolute;
+		top: 422px;
+		z-index: 1;
+	}
+}
+
+.blog {
 	min-height: 800px;
 	background-image: linear-gradient(#d3f1fc -400px, #00b3f9 460px, #88a0ab 480px);
-
-	.mountain {
-		top: 422px;
-	}
 }
