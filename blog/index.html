@@ -7,9 +7,9 @@ body: blog
 {% include nav.html %}
 
 	<main class="main container clearfix">
-		<h2>Blog</h2>
+		<h2>{{ page.title }}</h2>
 		<section class="col col-2-3 first">
-			<a href="" class="article">
+			<a href="/blog/welcome-to-jekyll/" class="article">
 				<article>
 					<h1>Lorem ipsum dolor sit amet.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia nesciunt modi in, tempore adipisci nulla vel suscipit quis! Atque ex nemo vitae magni adipisci...</p>
@@ -19,22 +19,34 @@ body: blog
 					</div>
 				</article>
 			</a>
-			<a href="" class="article">
+			<a href="/blog/welcome-to-jekyll/" class="article">
 				<article>
 					<h1>Lorem ipsum dolor sit amet.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae harum odit recusandae, ea illo voluptates voluptatibus perferendis pariatur, accusamus velit ad laborum quasi quod quia...</p>
+					<div class="article__details clearfix">
+						<time class="article__details__date" datetime="2015-12-26T19:00">26 Dezembro de 2015</time>
+						<span class="article__details__tags">#html5 #css3 #django</span>
+					</div>
 				</article>
 			</a>
-			<a href="" class="article">
+			<a href="/blog/welcome-to-jekyll/" class="article">
 				<article>
 					<h1>Lorem ipsum dolor sit amet.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nisi quidem neque dolore praesentium. Non suscipit aperiam unde voluptatibus quas natus, repellendus optio distinctio nam...</p>
+					<div class="article__details clearfix">
+						<time class="article__details__date" datetime="2015-12-26T19:00">26 Dezembro de 2015</time>
+						<span class="article__details__tags">#html5 #css3 #django</span>
+					</div>
 				</article>
 			</a>
-			<a href="" class="article">
+			<a href="/blog/welcome-to-jekyll/" class="article">
 				<article>
 					<h1>Lorem ipsum dolor sit amet.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci optio magnam maxime placeat, magni quibusdam corrupti, itaque eius quasi numquam, odit exercitationem at similique incidunt...</p>
+					<div class="article__details clearfix">
+						<time class="article__details__date" datetime="2015-12-26T19:00">26 Dezembro de 2015</time>
+						<span class="article__details__tags">#html5 #css3 #django</span>
+					</div>
 				</article>
 			</a>
 		</section>

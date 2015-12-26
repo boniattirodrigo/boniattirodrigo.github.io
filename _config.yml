@@ -1,2 +1,2 @@
 name: Rdorigo Boniaitti
-exclude: ["node_modules"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "design", "assets"]

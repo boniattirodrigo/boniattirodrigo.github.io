@@ -1,9 +1,30 @@
 ---
 layout: default
+title: Lorem ipsum dolor sit.
+body: blog
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-</div>
+{% include nav.html %}
+
+	<main class="main container clearfix">
+		<h2>{{ page.title }}</h2>
+		<section class="col col-2-3 first article">
+			<article>
+				{{ content }}
+				<div class="article__details clearfix">
+					<time class="article__details__date" datetime="{{ page.date_short }}">{{ page.date_long }}</time>
+					<span class="article__details__tags">#html5 #css3 #django</span>
+				</div>
+			</article>
+		</section>
+		<aside class="col col-1-3 aside">
+			<h3>tags</h3>
+			<ul>
+				<li><a href="">#html5</a></li>
+				<li><a href="">#css3</a></li>
+				<li><a href="">#python</a></li>
+				<li><a href="">#django</a></li>
+			</ul>
+		</aside>
+	</main>
+	<img class="mountain" src="../../../../../dist/img/background-footer.png" alt="">
