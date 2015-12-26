@@ -1,5 +1,5 @@
 //
-// Typography
+// Elements: Typography
 // ----------------------------------------------------------------------------
 
 body {
@@ -26,6 +26,22 @@ h3 {
 	font-size: 1.333333333em;
 	font-weight: 600;
 	color: #2d2929;
+}
+
+.blog {
+	h1, h3 {
+		margin: 0;
+		padding-bottom: .5em;
+		font-family: "Source Sans Pro", "Open Sans", sans-serif;
+		font-size: 2em;
+		font-weight: 600;
+		line-height: 1em;
+		color: #2D2929;
+	}
+
+	h2 {
+		padding: 1.4em 0 .84em 0;
+	}
 }
 
 a {
