@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 short_description: "You'll find post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!"
 date_long:   "26 de Novembro de 2015"
 date_short:  "2015-12-26T20:18"
-permalink: blog/:title/
 published: true
 ---
 You'll find post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
