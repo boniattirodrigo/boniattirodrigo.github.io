@@ -102,3 +102,12 @@
 		margin-top: 40px;
 	}
 }
+
+@media (max-width: 520px) {
+	.blog {
+
+		.footer {
+			margin-top: 0;
+		}
+	}
+}
