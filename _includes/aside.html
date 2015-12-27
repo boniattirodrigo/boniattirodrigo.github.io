@@ -1,0 +1,9 @@
+		<aside class="col col-1-3 aside">
+			<h3>tags</h3>
+			<ul>
+			{% for tags in site.tags %}
+				{% assign tag = tags | first %}
+				<li><a href="/blog/tag/{{tag}}/">#{{ tag }}</a></li>
+			{% endfor %}
+			</ul>
+		</aside>
