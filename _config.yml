@@ -1,5 +1,4 @@
 name: Rdorigo Boniaitti
 exclude: [node_modules, gulpfile.js, package.json, design, assets, README.md]
 permalink: /blog/:title
-disqus: rodrigoboniatti
-comments: true
+disqus: boniattirodrigo
