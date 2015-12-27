@@ -1,2 +1,3 @@
 name: Rdorigo Boniaitti
-exclude: ["node_modules", "gulpfile.js", "package.json", "design", "assets"]
+exclude: [node_modules, gulpfile.js, package.json, design, assets, README.md]
+permalink: /blog/:title
