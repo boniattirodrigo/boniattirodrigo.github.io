@@ -1,0 +1,23 @@
+//
+// Widget: Pagination
+// ----------------------------------------------------------------------------
+
+.pagination {
+	@extend .box-post;
+	padding: 0;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+
+	.previous, .next {
+		padding: 1em;
+	}
+
+	.previous {
+		float: left;
+	}
+
+	.next {
+		float: right;
+	}
+}

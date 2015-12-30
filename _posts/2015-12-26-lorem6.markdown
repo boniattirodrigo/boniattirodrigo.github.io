@@ -1,0 +1,11 @@
+---
+layout:            post
+title:             "Lorem ipsum dolor"
+short_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo expedita iusto, nobis, aperiam quis maxime obcaecati necessitatibus laudantium enim"
+date_long:         "26 de Novembro de 2015"
+tags:              [lorem, jekyll]
+date_short:        "2015-12-26T21:09"
+---
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo expedita iusto, nobis, aperiam quis maxime obcaecati necessitatibus laudantium enim eum dicta atque non fuga consequatur veritatis, culpa tempora, ex reiciendis! Reprehenderit magni ut in ullam eveniet voluptatibus nisi dolorum, nam.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo expedita iusto, nobis, aperiam quis maxime obcaecati necessitatibus laudantium enim eum dicta atque non fuga consequatur veritatis, culpa tempora, ex reiciendis! Reprehenderit magni ut in ullam eveniet voluptatibus nisi dolorum, nam.

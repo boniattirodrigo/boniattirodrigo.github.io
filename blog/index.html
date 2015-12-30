@@ -9,7 +9,7 @@ body: blog
 	<main class="main container clearfix">
 		<h2>Blog</h2>
 		<section class="col col-2-3 first">
-			{% for post in site.posts %}
+			{% for post in paginator.posts %}
 			<a href="{{ post.url }}" class="article">
 				<article>
 					<h1>{{ post.title }}</h1>
@@ -30,7 +30,21 @@ body: blog
 				</article>
 			</a>
 			{% endfor %}
+			{% if paginator.total_pages > 1 %}
+			<div class="pagination clearfix">
+				{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="previous">Anterior</a>
+				{% else %}
+			    <span class="previous">Anterior</span>
+				{% endif %}
+				{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="next">Próxima</a>
+				{% else %}
+			    <span class="next ">Próxima</span>
+				{% endif %}
+			</div>
 		</section>
+		{% endif %}
 {% include aside.html %}
 	</main>
 	<img class="mountain" src="../dist/img/background-footer.png" alt="">
