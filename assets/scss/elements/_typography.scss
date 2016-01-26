@@ -4,6 +4,8 @@
 
 body {
 	font: 1em/1.25em "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 }
 
