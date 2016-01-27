@@ -1,1 +1,0 @@
-![ScreenShot](https://raw.githubusercontent.com/boniattirodrigo/boniattirodrigo.github.io/master/assets/img/i-sit.png)
