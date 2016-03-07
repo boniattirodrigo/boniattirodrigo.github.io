@@ -5,6 +5,7 @@ short_description: "Veja as melhores referências para começar e para buscar ma
 date_long:         "06 de Março de 2016"
 tags:              python django
 date_short:        "2016-03-06T22:22"
+body:              blog
 ---
 
 Muitas vezes não sabemos por onde começar quando estamos aprendendo alguma nova linguagem ou framework, pois bem, aqui estão alguns links e referências que podem te poupar trabalho quando for começar a aprender.
