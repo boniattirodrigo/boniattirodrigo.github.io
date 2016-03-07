@@ -16,4 +16,9 @@
 		top: 422px;
 		z-index: 1;
 	}
+
+	ul {
+		@extend p;
+		padding-left: 20px;
+	}
 }

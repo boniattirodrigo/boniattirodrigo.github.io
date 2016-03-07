@@ -1,2 +1,6 @@
 github:
   name: Github
+python:
+  name: Python
+django:
+  name: Django
