@@ -24,7 +24,7 @@ Após isso, você já terá uma boa base. Entretanto aqui vão algumas outras re
 * [Alisson Azevedo](https://www.youtube.com/user/allissonazevedo/videos) - Ensina Django em geral e como colocá-lo em produção.
 * [Welcome to the Django](http://welcometothedjango.com.br/) - Felipe bastos é uma das grandes referências de Python e Django com Brasil, então vale a pena dar um conferida.
 * [Go Django](https://godjango.com/) - Irá te ajudar muito com requisições em Ajax e outras particularidades.
-* [Lincoln Loop](https://lincolnloop.com/blog/) - Tópicos um pouco mais avançados, sempre trazendo conteúdo interessante e com técnologias avançadas.
+* [Lincoln Loop](https://lincolnloop.com/blog/) - Tópicos um pouco mais avançados, sempre trazendo conteúdo interessante e com tecnologias avançadas.
 
 Bom é isso, ainda teriam mais alguns livros para indicar, mas para começar acredito que esse seja um bom caminho, ah! Não deixe de se cadastrar nos grupos do Google para poder tirar as dúvidas com o pessoal da comidade: [Django Brasil](https://groups.google.com/forum/#!forum/django-brasil) e [Django Users](https://groups.google.com/forum/#!forum/django-users).
 
