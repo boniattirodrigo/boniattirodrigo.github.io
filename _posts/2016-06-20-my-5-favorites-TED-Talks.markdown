@@ -1,7 +1,7 @@
 ---
 layout:            post
 title:             "My 5 favorites TED Talks"
-short_description: "My 5 favorites TED Talks"
+short_description: "I love TED Talks, I always see videos there when I'm free time and today I share with you, my 5 most favorites TED Talks."
 date_long:         "20 de Setembro de 2016"
 tags:              ted
 date_short:        "2016-09-20T21:21"
