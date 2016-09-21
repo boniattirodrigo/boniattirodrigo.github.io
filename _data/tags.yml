@@ -4,3 +4,5 @@ python:
   name: Python
 django:
   name: Django
+ted:
+  name: TED

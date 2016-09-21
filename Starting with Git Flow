@@ -1,0 +1,29 @@
+Starting with Git Flow
+
+Git flow is a great feature for use with git, with it you can to separate
+your project what is in developement and production, beyond you create branch
+for your own features. Ok, we go ahead with examples:
+
+For you kick stater you need install git flow, it's very easy, check out in
+documentation:
+
+http://danielkummer.github.io/git-flow-cheatsheet/#setup
+
+When you think in branch, you need put in your mind that is necessary organization your
+project through features, each new feature is a new branch, ok let's see how we do that.
+
+First, initialize the git flow:
+git flow init
+
+Then, do your new branch (feature):
+git flow feature start MYFEATURE
+
+Now, you put all code about this feature here.
+
+For finish it, only need:
+git flow feature finish MYFEATURE
+
+If you need share with you team, make:
+git flow feature publish MYFEATURE
+
+Ok. Now we know that each feature need a branch, when we finish a feature we can merge with we main branch for develop,
