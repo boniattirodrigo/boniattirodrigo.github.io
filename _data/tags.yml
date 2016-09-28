@@ -6,3 +6,5 @@ django:
   name: Django
 ted:
   name: TED
+music:
+  name: Music

@@ -1,6 +1,7 @@
 name: Rdorigo Boniaitti
+gems: [jekyll-paginate]
 exclude: [node_modules, gulpfile.js, package.json, design, assets, README.md]
-permalink: /blog/:title
+permalink: /blog/:title/
 disqus: boniattirodrigo
 paginate: 5
 paginate_path: "/blog/page:num/"
