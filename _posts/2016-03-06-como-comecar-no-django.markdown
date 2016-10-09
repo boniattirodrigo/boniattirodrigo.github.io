@@ -22,7 +22,7 @@ Após isso, aí sim é uma boa partir para a [documetação](https://docs.django
 Após isso, você já terá uma boa base. Entretanto aqui vão algumas outras referências que podem te ajudar e deixar as coisas um pouco mais claras.
 
 * [Alisson Azevedo](https://www.youtube.com/user/allissonazevedo/videos) - Ensina Django em geral e como colocá-lo em produção.
-* [Welcome to the Django](http://welcometothedjango.com.br/) - Felipe bastos é uma das grandes referências de Python e Django com Brasil, então vale a pena dar um conferida.
+* [Welcome to the Django](http://welcometothedjango.com.br/) - Henrique Bastos é uma das grandes referências de Python e Django com Brasil, então vale a pena dar um conferida.
 * [Go Django](https://godjango.com/) - Irá te ajudar muito com requisições em Ajax e outras particularidades.
 * [Lincoln Loop](https://lincolnloop.com/blog/) - Tópicos um pouco mais avançados, sempre trazendo conteúdo interessante e com tecnologias avançadas.
 
