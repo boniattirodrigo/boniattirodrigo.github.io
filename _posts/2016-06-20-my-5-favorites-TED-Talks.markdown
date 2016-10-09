@@ -8,7 +8,7 @@ date_short:        "2016-09-20T21:21"
 body:              blog
 ---
 
-**Hi folks!**. I absolutely love TED Talks, I'm always watching them when I've some free time, so today I'll be sharing with you my top 5 favourites TED Talks.
+**Hi folks!** I absolutely love TED Talks, I'm always watching them when I've some free time, so today I'll be sharing with you my top 5 favourites TED Talks.
 
 My first is **Massive-scale online collaboration** by Luis von Ahn, it shows how we can make a difference in the world with simple ideas and doing little things. [Check out](https://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration).
 
