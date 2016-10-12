@@ -49,6 +49,7 @@ textwrap.shorten(bar, width=10, placeholder='...')
 **All and any**
 
 Check if all values in your list are true:
+
 ```
 all([True, True, True, False])
 False
@@ -56,6 +57,7 @@ False
 
 <br>
 Now, check if any value is true:
+
 ```
 any([True, True, True, False])
 True
