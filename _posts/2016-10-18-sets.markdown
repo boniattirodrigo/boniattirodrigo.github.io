@@ -1,0 +1,11 @@
+---
+layout:            post
+title:             "Sets"
+short_description: ""
+date_long:         "18 de Outubro de 2016"
+tags:              python
+date_short:        "2016-10-18T21:06"
+body:              blog
+---
+
+Python has a nice feature called sets, like in mathematics, you can operated under a sets of elements.
