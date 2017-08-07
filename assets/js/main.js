@@ -85,7 +85,7 @@ $(document).ready(function() {
      */
     offsetTop = 0;
 
-    $('#nav-sobre, #nav-trabalhos, #nav-contato').click(function(e) {
+    $('#nav-sobre, #nav-trabalhos, #nav-contato, #nav-talks').click(function(e) {
         href = $(this).attr('href');
         navHeight = $('.nav').height();
         if ($('.nav--fixed')[0]) {
