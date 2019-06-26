@@ -5,6 +5,4 @@ _site
 .sass-cache
 .publish
 /design
-Gemfile
-Gemfile.lock
 node_modules
